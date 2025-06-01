@@ -1,0 +1,147 @@
+/* Algemene instellingen */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.intro-text {
+    flex: 1;
+    min-width: 250px;
+}
+
+
+.intro-image {
+    flex: 0 0 520px;
+    display: flex;
+    justify-content: flex-end;
+    min-width: 180px;
+}
+
+.profile-image {
+    max-width: 500px;
+    height: auto;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.sneekpeak {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.skills{
+    background-color: #1f1f1f;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.skill-box {
+    text-align: center;
+    color: black;
+    border: 2px solid black; /* zwarte rand van 2px */
+    padding: 1rem;
+    border-radius: 10px; /* optioneel: afgeronde hoeken */
+    background-color: #8d8d8d; /* optioneel: donkergrijze achtergrond */
+}
+
+.skill-box p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    
+}
+
+
+.skill-icon {
+    width: 200px;   /* gewenste breedte */
+    height: 200px;  /* gewenste hoogte */
+    object-fit: contain; /* behoudt aspect-ratio en voorkomt vervormen */
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+.intro-text.intro-box {
+    flex: 1 1 320px;
+    background: #f8f9fa;
+    border-radius: 16px;
+    border: 2px solid #dee2e6;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    padding: 32px 24px;
+    min-width: 270px;
+    margin: 0;
+    max-width: 100%;
+    text-align: left;
+}
+.intro-box h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.intro-box p {
+    margin: 0;
+    font-size: 1.12rem;
+}
+#taal {
+    position: fixed;      /* Always stays in place */
+    top: 20px;            /* Distance from top */
+    right: 20px;          /* Distance from right */
+    z-index: 9999;        /* Always on top */
+    border-radius: 12px;  /* Optional: make it look nicer */
+    font-weight: bold;    /* Optional: bold text */
+}
+#current-projects {
+    padding: 2rem;
+    text-align: center;
+}
