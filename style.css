@@ -145,17 +145,3 @@ footer {
     padding: 2rem;
     text-align: center;
 }
-.git-activity {
-    margin-top: 2rem;
-    background-color: #f0f0f0;
-    padding: 1rem;
-    border-radius: 8px;
-}
-.git-activity ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-.git-activity li {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid #ccc;
-}
